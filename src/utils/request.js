@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 import { isLoadingStore } from '../store/common';
 import { Alert } from './common';
 
-let baseURL = ENV === 'development' ? 'http://xx.xx.xx.xx:3000/' : '/api/';
+let baseURL = ENV === 'development' ? 'http://code.zhangdong.site:3001/' : '/api/';
 
 const service = axios.create({
   baseURL,
